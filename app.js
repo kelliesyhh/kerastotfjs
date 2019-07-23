@@ -1,5 +1,5 @@
-// import * as tf from '@tensorflow/tfjs';
-const tf = require('@tensorflow/tfjs');
+ import * as tf from '@tensorflow/tfjs';
+//const tf = require('@tensorflow/tfjs');
 let modelApp;
 
 $(document).ready(function () {
