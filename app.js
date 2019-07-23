@@ -104,7 +104,8 @@ async function run() {
       reverse_img_2.dispose();
       reverse_img.dispose();
    }
-   const predData = input[12].dataSync();
+   
+   const predData = input[13].dataSync();
    prediction_display.innerHTML = "Prediction : ( Confidence: " + Number(predData[0].toFixed(2)) + ")";
 
    webcamImage.dispose();
